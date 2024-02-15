@@ -17,3 +17,5 @@ Feito isto, ficamos com acesso aos valores de cada linha, podendo assim fazer os
 
 Finalmente, para as percentagens de atletas aptos e inaptos, foram calculados os números de atletas aptos e inaptos através da verificação do último atributo e, com isto, o número total de atletas e as respetivas percentagens.
 Para as modalidades desportivas ordenadas por ordem alfabética, foram armazenados os nomes de todas as modalidades numa lista e, depois disto, esta foi ordenada.
+
+Para a execução do código, como foi utilizado o STDIN para a leitura do CSV, o comando utilizado foi o seguinte:  cat emd.csv | python3 TPC1.py.
