@@ -17,10 +17,9 @@ def somador(input):
         for line in ficheiro:
             capture = re.findall(r'(on|off|=|\d)', line, re.IGNORECASE)
             lista_final.extend(capture)
-        print(lista_final)
         for elemento in lista_final:
             if elemento == "=":
-                print(contador) 
+                print("Total atual : " + str(contador)) 
             elif elemento.isnumeric() and estado == True:
                 contador += int(elemento)
             elif elemento.upper() == "OFF":
