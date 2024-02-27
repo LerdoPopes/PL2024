@@ -4,13 +4,10 @@ import sys
 def somador(input):
     
     contador = 0
-    #numero_string = ""
-    #numero_inteiro = 0
     estado = False
     
     lista_final = []
     
-    #Versão que soma o contador número a número 
     with open(input,"r") as ficheiro:
         
         # Adicionar todos os On/Off/=/números numa lista
